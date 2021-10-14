@@ -38,8 +38,11 @@
   }
 
   .skills-wrapper {
-    width: 100%;
-    padding-left: 70px;
+    flex: 5;
+  }
+
+  .main-image {
+    flex: 3;
   }
 
   .skills-block {
@@ -51,8 +54,8 @@
   }
 
   .profile-pic {
-    width: 25%;
-    min-width: 180px;
+    min-width: 220px;
+    max-width: 300px;
     height: max-content;
   }
 
